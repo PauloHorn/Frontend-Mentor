@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+.foto {
+    width: 10rem;
+    border-radius: 50%;
+    padding: 2rem 0;
+}
+
+.nome {
+    font-weight: 400;
+}
+
+.localizacao {
+    padding: 1rem 0;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.apresentacao {
+    padding: 1rem 0;
+}
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    width: 30rem;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.rede-social {
+    width: 24rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.7rem;
+}
+
+.rede-social a {
+    color: hsl(0, 0%, 100%);
+}
