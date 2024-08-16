@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+    .profile {
+        width: 20rem;
+    }
+
+    .rede-social {
+        width: 18rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .apresentacao {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+    }
+}
