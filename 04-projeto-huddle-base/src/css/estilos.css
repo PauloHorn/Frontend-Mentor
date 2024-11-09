@@ -22,7 +22,7 @@ body {
 .main {
     display: flex;
     flex-direction: row;
-    padding: 3rem;
+    padding: 8rem;
 }
 
 .main .image {
@@ -38,7 +38,7 @@ body {
 
 .main .apresentacao h2 {
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .main .apresentacao p {
@@ -48,9 +48,10 @@ body {
 
 .main .register {
     width: 22rem;
-    height: 5rem;
+    height: 6rem;
     border-radius: 3rem;
     color: hsl(257, 40%, 49%);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.75);
 }
 
 .main .register:hover {
@@ -88,7 +89,7 @@ body {
 .footer {
     display: flex;
     justify-content: flex-end;
-    padding: 0 4rem;
+    padding: 0 6rem;
     font-size: 3rem;
 }
 
